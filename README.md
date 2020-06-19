@@ -2,10 +2,6 @@
     <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/banner.png" />
 </h1>
 
-<h4 align="center"> 
-	🚧 NextLevelWeek 1.0 🚀 em construção... 🚧
-</h4>
-
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ghostovahkiin/Ecoleta?color=%2304D361">
 
@@ -18,6 +14,16 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
    <a href="https://github.com/ghostdovahkiin/ecoleta/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/ghostdovahkiin/ecoleta?style=social">
+  </a>
+  <br>
+  <a href="https://www.linkedin.com/in/p3dr0h3n/" target="_blank" >
+    <img alt="Linkedin - Pedro Henrique" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+  </a>
+  <a href="mailto:pedro.sousa@dcx.ufpb.br" target="_blank" >
+    <img alt="Email - Pedro Henrique" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+  </a>
+  <a href="https://api.whatsapp.com/send?phone=5583986862912" target="_blank" >
+    <img alt="Fale comigo no whatsapp - Pedro Henrique" src="https://img.shields.io/badge/Whatsapp--%23F8952D?style=social&logo=whatsapp">
   </a>
 </p>
 
@@ -152,7 +158,7 @@ $ npm run start
 
 Este projeto esta sobe a licença MIT.
 
-Feito com ❤️ por Pedro Henrique 👋🏽 [Entre em contato!](https://www.linkedin.com/in/ghostdovahkiin/)
+Feito com ❤️ por Pedro Henrique 👋🏽 [Entre em contato!](https://www.linkedin.com/in/p3dr0h3n/)
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
