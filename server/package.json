@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev src/server.ts"
+    "dev": "ts-node src/server.ts",
+    "migrate": "knex --knexfile knexfile.ts migrate:latest"
   },
   "keywords": [],
   "author": "",
