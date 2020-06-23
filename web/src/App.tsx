@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import Home from './pages/home';
+import Routes from './routes';
 
 // JSX/TSX: Sintaxe de JavaScript ou TypeScript dentro da aplicação
 
 function App() {
   return (
-    <Home></Home>
+    <Routes></Routes>
   );
 }
 
