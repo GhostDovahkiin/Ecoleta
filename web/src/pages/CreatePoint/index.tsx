@@ -1,4 +1,4 @@
-import React, {useEffect, useState, ChangeEvent} from 'react';
+import React, {useEffect, useState, ChangeEvent, FormEvent} from 'react';
 import './styles.css';
 import {Link} from 'react-router-dom';
 import logo from '../../assets/logo.svg';
@@ -105,6 +105,26 @@ const CreatePoint = () => {
     
   }
 
+  async function handleSubmit(event: FormEvent){
+    event.preventDefault();
+    const { name, email, whatsapp} = formData;
+    const uf = selectedUF;
+    const city = selectedCity;
+    const[latitude, longitude] = selectedPosition;
+    const items= selectedItems;
+    const data = {
+      name, 
+      email,
+      whatsapp,
+      uf,
+      city,
+      latitude,
+      longitude,
+      items
+    };
+    await api.post('points', data);
+  }
+
 
 
   return (
@@ -117,7 +137,7 @@ const CreatePoint = () => {
         </Link>
       </header>
 
-      <form>
+      <form onSubmit={handleSubmit}>
         <h1>Cadastro do <br /> ponto de coleta</h1>
         <fieldset>
           <legend>
